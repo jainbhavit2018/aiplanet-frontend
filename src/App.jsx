@@ -137,10 +137,15 @@ function App() {
         {messages.map((msg, index) => (
           <div
             key={index}
-            className={`flex ${
+            className={`flex items-center ${
               msg.sender === "you" ? "justify-end" : "justify-start"
             } mb-4`}
           >
+            <img
+              src="favicon.png"
+              alt="Avatar"
+              className={`${msg.sender === "you" ? "hidden" : ""} w-8 h-8 mr-4`}
+            />
             <div
               className={`${
                 msg.sender === "you"
@@ -150,6 +155,11 @@ function App() {
             >
               {msg.message}
             </div>
+            <img
+              src="user.png"
+              alt="Avatar"
+              className={`${msg.sender === "ai" ? "hidden" : ""} w-8 h-8 ml-4`}
+            />
           </div>
         ))}
       </main>
