@@ -1,4 +1,4 @@
-Frontend Repository: [https://github.com/jainbhavit2018/aiplanet-backend](https://github.com/jainbhavit2018/aiplanet-backend) \
+Backend Repository: [https://github.com/jainbhavit2018/aiplanet-backend](https://github.com/jainbhavit2018/aiplanet-backend) \
 Deployment Link: [https://pdf-chatbot-assignment.vercel.app/](https://pdf-chatbot-assignment.vercel.app/)
 
 # AI Planet Frontend
